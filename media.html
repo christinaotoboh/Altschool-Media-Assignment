@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Assignment</title>
+  </head>
+  <body>
+    <h1>Introduction</h1>
+    <p>
+      Hi, my name is Christiana Otoboh. I'm a Data Analyst currently
+      transitioning into Cloud DevOps, which is why I enrolled at AltSchool.
+      <br />
+      I'm passionate about tech and eager to build skills in cloud
+      infrastructure, automation, and deployment.
+      <br />
+      This assignment is part of my journey, and I’m excited about what lies
+      ahead.
+    </p>
+
+    <h2>Video Introduction</h2>
+    <p>This is my video introduction below:</p>
+    <video src="./Assets/Video.mp4" controls width="100%"></video>
+
+    <h2>Image Introduction</h2>
+    <p>My image will change based on screen size:</p>
+    <picture>
+      <source srcset="./Assets/Image.jpeg" media="(max-width: 600px)" />
+
+      <source srcset="./Assets/Image.jpeg" media="(max-width: 1024px)" />
+
+      <source srcset="./Assets/Image.jpeg" media="(min-width: 1025px)" />
+
+      <img src="./Assets/Image.jpeg" alt="Profile pic" width="100%" />
+    </picture>
+
+    <h2>Audio Introduction</h2>
+    <audio src="./Assets/Audio.mp4" controls width="100%">
+      This is my audio
+    </audio>
+
+    <p>
+      This assignment was done without CSS, which is why I didn’t reduce the
+      size of the image manually.
+    </p>
+  </body>
+</html>
